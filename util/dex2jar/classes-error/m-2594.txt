@@ -1,0 +1,297 @@
+Lcom/alibaba/tcms/request/BaseRequest;.doPost(Ljava/lang/String;Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;Ljava/lang/String;II)Lcom/alibaba/tcms/request/Response;
+java.lang.NullPointerException
+	at com.googlecode.dex2jar.ir.ts.ExceptionHandlerCurrectTransformer.transform(ExceptionHandlerCurrectTransformer.java:89)
+	at com.googlecode.d2j.dex.Dex2jar$2.optimize(Dex2jar.java:133)
+	at com.googlecode.d2j.dex.Dex2Asm.convertCode(Dex2Asm.java:414)
+	at com.googlecode.d2j.dex.ExDex2Asm.convertCode(ExDex2Asm.java:42)
+	at com.googlecode.d2j.dex.Dex2jar$2.convertCode(Dex2jar.java:128)
+	at com.googlecode.d2j.dex.Dex2Asm.convertMethod(Dex2Asm.java:509)
+	at com.googlecode.d2j.dex.Dex2Asm.convertClass(Dex2Asm.java:406)
+	at com.googlecode.d2j.dex.Dex2Asm.convertDex(Dex2Asm.java:422)
+	at com.googlecode.d2j.dex.Dex2jar.doTranslate(Dex2jar.java:172)
+	at com.googlecode.d2j.dex.Dex2jar.to(Dex2jar.java:272)
+	at com.googlecode.dex2jar.tools.Dex2jarCmd.doCommandLine(Dex2jarCmd.java:108)
+	at com.googlecode.dex2jar.tools.BaseCmd.doMain(BaseCmd.java:288)
+	at com.googlecode.dex2jar.tools.Dex2jarCmd.main(Dex2jarCmd.java:32)
+
+
+.method public doPost(Ljava/lang/String;Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;Ljava/lang/String;II)Lcom/alibaba/tcms/request/Response;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/String;",
+            "Ljava/util/Map",
+            "<",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            ">;",
+            "Ljava/util/Map",
+            "<",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            ">;",
+            "Ljava/util/Map",
+            "<",
+            "Ljava/lang/String;",
+            "Lcom/alibaba/tcms/request/FileItem;",
+            ">;",
+            "Ljava/lang/String;",
+            "II)",
+            "Lcom/alibaba/tcms/request/Response;"
+        }
+    .end annotation
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+    .catch Ljava/io/IOException; { :L0 .. :L1 } :L10
+    .catchall { :L0 .. :L1 } :L23
+    .catch Ljava/io/IOException; { :L2 .. :L3 } :L27
+    .catchall { :L2 .. :L3 } :L24
+    .catch Ljava/io/IOException; { :L3 .. :L4 } :L25
+    .catchall { :L3 .. :L4 } :L24
+    .catch Ljava/io/IOException; { :L5 .. :L6 } :L7
+    .catchall { :L5 .. :L6 } :L14
+    .catchall { :L8 .. :L9 } :L9
+    .catchall { :L11 .. :L12 } :L12
+    .catch Ljava/io/IOException; { :L13 .. :L15 } :L7
+    .catchall { :L13 .. :L15 } :L14
+    .catchall { :L16 .. :L17 } :L26
+    .catchall { :L18 .. :L19 } :L20
+    .catch Ljava/io/IOException; { :L21 .. :L22 } :L7
+    .catchall { :L21 .. :L22 } :L14
+    .registers 19
+    const/4 v0, 0
+    return-object v0
+    :L0
+    :L1
+    :L2
+    :L3
+    :L4
+    :L5
+    :L6
+    :L7
+    nop
+    nop
+    :L8
+    nop
+    :L9
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L10
+    nop
+    :L11
+    nop
+    :L12
+    nop
+    nop
+    nop
+    nop
+    :L13
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L14
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L15
+    nop
+    nop
+    nop
+    nop
+    :L16
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L17
+    nop
+    nop
+    :L18
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L19
+    nop
+    :L20
+    nop
+    nop
+    nop
+    :L21
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L22
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L23
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L24
+    nop
+    nop
+    nop
+    nop
+    :L25
+    nop
+    nop
+    nop
+    nop
+    :L26
+    nop
+    nop
+    nop
+    :L27
+    nop
+    nop
+    nop
+    nop
+.end method

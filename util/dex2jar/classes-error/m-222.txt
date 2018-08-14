@@ -1,0 +1,284 @@
+Lcom/alibaba/mobileim/channel/account/AccountProfilePacker;.setJsonValue(Lcom/alibaba/mobileim/channel/account/ProfileAccount;Lorg/json/JSONObject;)V
+java.lang.NullPointerException
+	at com.googlecode.dex2jar.ir.ts.ExceptionHandlerCurrectTransformer.transform(ExceptionHandlerCurrectTransformer.java:89)
+	at com.googlecode.d2j.dex.Dex2jar$2.optimize(Dex2jar.java:133)
+	at com.googlecode.d2j.dex.Dex2Asm.convertCode(Dex2Asm.java:414)
+	at com.googlecode.d2j.dex.ExDex2Asm.convertCode(ExDex2Asm.java:42)
+	at com.googlecode.d2j.dex.Dex2jar$2.convertCode(Dex2jar.java:128)
+	at com.googlecode.d2j.dex.Dex2Asm.convertMethod(Dex2Asm.java:509)
+	at com.googlecode.d2j.dex.Dex2Asm.convertClass(Dex2Asm.java:406)
+	at com.googlecode.d2j.dex.Dex2Asm.convertDex(Dex2Asm.java:422)
+	at com.googlecode.d2j.dex.Dex2jar.doTranslate(Dex2jar.java:172)
+	at com.googlecode.d2j.dex.Dex2jar.to(Dex2jar.java:272)
+	at com.googlecode.dex2jar.tools.Dex2jarCmd.doCommandLine(Dex2jarCmd.java:108)
+	at com.googlecode.dex2jar.tools.BaseCmd.doMain(BaseCmd.java:288)
+	at com.googlecode.dex2jar.tools.Dex2jarCmd.main(Dex2jarCmd.java:32)
+
+
+.method private setJsonValue(Lcom/alibaba/mobileim/channel/account/ProfileAccount;Lorg/json/JSONObject;)V
+    .catch Lorg/json/JSONException; { :L0 .. :L1 } :L19
+    .catch Lorg/json/JSONException; { :L1 .. :L2 } :L20
+    .catch Lorg/json/JSONException; { :L2 .. :L3 } :L21
+    .catch Lorg/json/JSONException; { :L3 .. :L4 } :L22
+    .catch Lorg/json/JSONException; { :L4 .. :L5 } :L23
+    .catch Lorg/json/JSONException; { :L5 .. :L6 } :L24
+    .catch Lorg/json/JSONException; { :L6 .. :L7 } :L25
+    .catch Lorg/json/JSONException; { :L7 .. :L8 } :L26
+    .catch Lorg/json/JSONException; { :L8 .. :L9 } :L27
+    .catch Lorg/json/JSONException; { :L9 .. :L10 } :L28
+    .catch Lorg/json/JSONException; { :L10 .. :L11 } :L29
+    .catch Lorg/json/JSONException; { :L11 .. :L12 } :L30
+    .catch Lorg/json/JSONException; { :L12 .. :L13 } :L31
+    .catch Lorg/json/JSONException; { :L13 .. :L14 } :L32
+    .catch Lorg/json/JSONException; { :L14 .. :L15 } :L33
+    .catch Lorg/json/JSONException; { :L15 .. :L16 } :L34
+    .catch Lorg/json/JSONException; { :L17 .. :L18 } :L35
+    .registers 12
+    return-void
+    :L0
+    :L1
+    :L2
+    :L3
+    :L4
+    :L5
+    :L6
+    :L7
+    :L8
+    :L9
+    :L10
+    :L11
+    :L12
+    :L13
+    :L14
+    :L15
+    :L16
+    :L17
+    :L18
+    :L19
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L20
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L21
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L22
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L23
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L24
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L25
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L26
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L27
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L28
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L29
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L30
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L31
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L32
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L33
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L34
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L35
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+.end method

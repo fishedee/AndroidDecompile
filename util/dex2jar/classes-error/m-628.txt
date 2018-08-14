@@ -1,0 +1,91 @@
+Lcom/amap/api/services/a/bc;.b(Landroid/content/Context;Lcom/amap/api/services/a/bc$a;)[B
+java.lang.NullPointerException
+	at com.googlecode.dex2jar.ir.ts.ExceptionHandlerCurrectTransformer.transform(ExceptionHandlerCurrectTransformer.java:89)
+	at com.googlecode.d2j.dex.Dex2jar$2.optimize(Dex2jar.java:133)
+	at com.googlecode.d2j.dex.Dex2Asm.convertCode(Dex2Asm.java:414)
+	at com.googlecode.d2j.dex.ExDex2Asm.convertCode(ExDex2Asm.java:42)
+	at com.googlecode.d2j.dex.Dex2jar$2.convertCode(Dex2jar.java:128)
+	at com.googlecode.d2j.dex.Dex2Asm.convertMethod(Dex2Asm.java:509)
+	at com.googlecode.d2j.dex.Dex2Asm.convertClass(Dex2Asm.java:406)
+	at com.googlecode.d2j.dex.Dex2Asm.convertDex(Dex2Asm.java:422)
+	at com.googlecode.d2j.dex.Dex2jar.doTranslate(Dex2jar.java:172)
+	at com.googlecode.d2j.dex.Dex2jar.to(Dex2jar.java:272)
+	at com.googlecode.dex2jar.tools.Dex2jarCmd.doCommandLine(Dex2jarCmd.java:108)
+	at com.googlecode.dex2jar.tools.BaseCmd.doMain(BaseCmd.java:288)
+	at com.googlecode.dex2jar.tools.Dex2jarCmd.main(Dex2jarCmd.java:32)
+
+
+.method private static b(Landroid/content/Context;Lcom/amap/api/services/a/bc$a;)[B
+    .catch Ljava/lang/Throwable; { :L0 .. :L1 } :L6
+    .catchall { :L0 .. :L1 } :L12
+    .catch Ljava/lang/Throwable; { :L1 .. :L2 } :L17
+    .catchall { :L1 .. :L2 } :L16
+    .catch Ljava/lang/Throwable; { :L3 .. :L4 } :L5
+    .catchall { :L7 .. :L8 } :L16
+    .catch Ljava/lang/Throwable; { :L9 .. :L10 } :L11
+    .catch Ljava/lang/Throwable; { :L13 .. :L14 } :L15
+    .registers 7
+    const/4 v0, 0
+    :L0
+    return-object v0
+    :L1
+    :L2
+    :L3
+    :L4
+    :L5
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L6
+    nop
+    nop
+    :L7
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L8
+    nop
+    nop
+    :L9
+    nop
+    nop
+    nop
+    :L10
+    nop
+    :L11
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L12
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L13
+    nop
+    nop
+    nop
+    :L14
+    nop
+    :L15
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L16
+    nop
+    nop
+    :L17
+    nop
+    nop
+.end method

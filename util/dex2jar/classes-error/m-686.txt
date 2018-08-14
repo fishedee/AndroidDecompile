@@ -1,0 +1,75 @@
+Lcom/alibaba/tcms/request/BaseRequest;.doGet(Ljava/lang/String;Ljava/util/Map;Ljava/util/Map;Ljava/lang/String;II)Lcom/alibaba/tcms/request/Response;
+java.lang.NullPointerException
+	at com.googlecode.dex2jar.ir.ts.ExceptionHandlerCurrectTransformer.transform(ExceptionHandlerCurrectTransformer.java:89)
+	at com.googlecode.d2j.dex.Dex2jar$2.optimize(Dex2jar.java:133)
+	at com.googlecode.d2j.dex.Dex2Asm.convertCode(Dex2Asm.java:414)
+	at com.googlecode.d2j.dex.ExDex2Asm.convertCode(ExDex2Asm.java:42)
+	at com.googlecode.d2j.dex.Dex2jar$2.convertCode(Dex2jar.java:128)
+	at com.googlecode.d2j.dex.Dex2Asm.convertMethod(Dex2Asm.java:509)
+	at com.googlecode.d2j.dex.Dex2Asm.convertClass(Dex2Asm.java:406)
+	at com.googlecode.d2j.dex.Dex2Asm.convertDex(Dex2Asm.java:422)
+	at com.googlecode.d2j.dex.Dex2jar.doTranslate(Dex2jar.java:172)
+	at com.googlecode.d2j.dex.Dex2jar.to(Dex2jar.java:272)
+	at com.googlecode.dex2jar.tools.Dex2jarCmd.doCommandLine(Dex2jarCmd.java:108)
+	at com.googlecode.dex2jar.tools.BaseCmd.doMain(BaseCmd.java:288)
+	at com.googlecode.dex2jar.tools.Dex2jarCmd.main(Dex2jarCmd.java:32)
+
+
+.method public doGet(Ljava/lang/String;Ljava/util/Map;Ljava/util/Map;Ljava/lang/String;II)Lcom/alibaba/tcms/request/Response;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/String;",
+            "Ljava/util/Map",
+            "<",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            ">;",
+            "Ljava/util/Map",
+            "<",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            ">;",
+            "Ljava/lang/String;",
+            "II)",
+            "Lcom/alibaba/tcms/request/Response;"
+        }
+    .end annotation
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+    .catchall { :L0 .. :L1 } :L7
+    .catch Ljava/io/IOException; { :L2 .. :L3 } :L5
+    .catchall { :L2 .. :L3 } :L7
+    .catch Ljava/io/IOException; { :L3 .. :L4 } :L8
+    .catchall { :L3 .. :L4 } :L7
+    .catchall { :L6 .. :L7 } :L7
+    .catchall { :L9 .. :L10 } :L7
+    .registers 11
+    const/4 v0, 0
+    :L0
+    return-object v0
+    :L1
+    :L2
+    :L3
+    :L4
+    :L5
+    nop
+    :L6
+    nop
+    :L7
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L8
+    nop
+    :L9
+    nop
+    :L10
+.end method

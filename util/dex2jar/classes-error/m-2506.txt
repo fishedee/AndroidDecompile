@@ -1,0 +1,275 @@
+Lcom/alibaba/mobileim/utility/IMThumbnailUtils;.getImageThumbnailFromAlbum(Landroid/content/Context;Landroid/net/Uri;IILjava/lang/String;IZ)Landroid/graphics/Bitmap;
+java.lang.NullPointerException
+	at com.googlecode.dex2jar.ir.ts.ExceptionHandlerCurrectTransformer.transform(ExceptionHandlerCurrectTransformer.java:89)
+	at com.googlecode.d2j.dex.Dex2jar$2.optimize(Dex2jar.java:133)
+	at com.googlecode.d2j.dex.Dex2Asm.convertCode(Dex2Asm.java:414)
+	at com.googlecode.d2j.dex.ExDex2Asm.convertCode(ExDex2Asm.java:42)
+	at com.googlecode.d2j.dex.Dex2jar$2.convertCode(Dex2jar.java:128)
+	at com.googlecode.d2j.dex.Dex2Asm.convertMethod(Dex2Asm.java:509)
+	at com.googlecode.d2j.dex.Dex2Asm.convertClass(Dex2Asm.java:406)
+	at com.googlecode.d2j.dex.Dex2Asm.convertDex(Dex2Asm.java:422)
+	at com.googlecode.d2j.dex.Dex2jar.doTranslate(Dex2jar.java:172)
+	at com.googlecode.d2j.dex.Dex2jar.to(Dex2jar.java:272)
+	at com.googlecode.dex2jar.tools.Dex2jarCmd.doCommandLine(Dex2jarCmd.java:108)
+	at com.googlecode.dex2jar.tools.BaseCmd.doMain(BaseCmd.java:288)
+	at com.googlecode.dex2jar.tools.Dex2jarCmd.main(Dex2jarCmd.java:32)
+
+
+.method private static getImageThumbnailFromAlbum(Landroid/content/Context;Landroid/net/Uri;IILjava/lang/String;IZ)Landroid/graphics/Bitmap;
+    .catch Ljava/io/FileNotFoundException; { :L0 .. :L1 } :L18
+    .catch Ljava/io/IOException; { :L0 .. :L1 } :L19
+    .catch Ljava/lang/OutOfMemoryError; { :L0 .. :L1 } :L20
+    .catch Ljava/io/FileNotFoundException; { :L2 .. :L3 } :L54
+    .catch Ljava/io/IOException; { :L2 .. :L3 } :L53
+    .catch Ljava/lang/OutOfMemoryError; { :L2 .. :L3 } :L52
+    .catch Ljava/io/FileNotFoundException; { :L4 .. :L5 } :L21
+    .catch Ljava/io/IOException; { :L4 .. :L5 } :L23
+    .catch Ljava/lang/OutOfMemoryError; { :L4 .. :L5 } :L24
+    .catchall { :L4 .. :L5 } :L50
+    .catch Ljava/lang/OutOfMemoryError; { :L6 .. :L7 } :L29
+    .catchall { :L6 .. :L7 } :L34
+    .catch Ljava/io/IOException; { :L8 .. :L9 } :L26
+    .catch Ljava/lang/OutOfMemoryError; { :L8 .. :L9 } :L29
+    .catchall { :L8 .. :L9 } :L34
+    .catch Ljava/io/FileNotFoundException; { :L9 .. :L10 } :L37
+    .catch Ljava/lang/OutOfMemoryError; { :L9 .. :L10 } :L29
+    .catchall { :L9 .. :L10 } :L34
+    .catch Ljava/lang/OutOfMemoryError; { :L11 .. :L12 } :L29
+    .catchall { :L11 .. :L12 } :L34
+    .catch Ljava/io/IOException; { :L13 .. :L14 } :L39
+    .catch Ljava/lang/OutOfMemoryError; { :L13 .. :L14 } :L29
+    .catchall { :L13 .. :L14 } :L34
+    .catch Ljava/lang/OutOfMemoryError; { :L14 .. :L15 } :L29
+    .catchall { :L14 .. :L15 } :L34
+    .catch Ljava/io/IOException; { :L16 .. :L17 } :L44
+    .catch Ljava/lang/OutOfMemoryError; { :L22 .. :L25 } :L51
+    .catchall { :L22 .. :L25 } :L50
+    .catch Ljava/lang/OutOfMemoryError; { :L27 .. :L28 } :L29
+    .catchall { :L27 .. :L28 } :L34
+    .catch Ljava/io/IOException; { :L30 .. :L31 } :L48
+    .catch Ljava/lang/OutOfMemoryError; { :L32 .. :L33 } :L29
+    .catchall { :L32 .. :L33 } :L34
+    .catch Ljava/io/IOException; { :L35 .. :L36 } :L49
+    .catch Ljava/lang/OutOfMemoryError; { :L38 .. :L40 } :L29
+    .catchall { :L38 .. :L40 } :L34
+    .catch Ljava/io/IOException; { :L41 .. :L42 } :L43
+    .catch Ljava/io/IOException; { :L45 .. :L46 } :L47
+    .registers 23
+    const/4 v0, 0
+    return-object v0
+    :L0
+    :L1
+    :L2
+    :L3
+    :L4
+    :L5
+    :L6
+    :L7
+    :L8
+    :L9
+    :L10
+    :L11
+    :L12
+    :L13
+    :L14
+    :L15
+    :L16
+    :L17
+    :L18
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L19
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L20
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L21
+    nop
+    :L22
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L23
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L24
+    nop
+    nop
+    nop
+    nop
+    :L25
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L26
+    nop
+    :L27
+    nop
+    nop
+    nop
+    :L28
+    nop
+    :L29
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L30
+    nop
+    nop
+    nop
+    :L31
+    nop
+    nop
+    nop
+    nop
+    :L32
+    nop
+    nop
+    nop
+    :L33
+    nop
+    :L34
+    nop
+    nop
+    nop
+    :L35
+    nop
+    nop
+    nop
+    :L36
+    nop
+    :L37
+    nop
+    :L38
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L39
+    nop
+    nop
+    nop
+    nop
+    :L40
+    nop
+    nop
+    nop
+    :L41
+    nop
+    nop
+    nop
+    :L42
+    nop
+    nop
+    :L43
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L44
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L45
+    nop
+    nop
+    nop
+    :L46
+    nop
+    :L47
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L48
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L49
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L50
+    nop
+    nop
+    nop
+    :L51
+    nop
+    nop
+    nop
+    :L52
+    nop
+    nop
+    :L53
+    nop
+    nop
+    nop
+    :L54
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+.end method

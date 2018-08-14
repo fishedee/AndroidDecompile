@@ -1,0 +1,80 @@
+Lcom/alibaba/mobileim/kit/chat/ImageDetailFragment;.saveToDb(JLjava/lang/String;Ljava/lang/String;)Z
+java.lang.NullPointerException
+	at com.googlecode.dex2jar.ir.ts.ExceptionHandlerCurrectTransformer.transform(ExceptionHandlerCurrectTransformer.java:89)
+	at com.googlecode.d2j.dex.Dex2jar$2.optimize(Dex2jar.java:133)
+	at com.googlecode.d2j.dex.Dex2Asm.convertCode(Dex2Asm.java:414)
+	at com.googlecode.d2j.dex.ExDex2Asm.convertCode(ExDex2Asm.java:42)
+	at com.googlecode.d2j.dex.Dex2jar$2.convertCode(Dex2jar.java:128)
+	at com.googlecode.d2j.dex.Dex2Asm.convertMethod(Dex2Asm.java:509)
+	at com.googlecode.d2j.dex.Dex2Asm.convertClass(Dex2Asm.java:406)
+	at com.googlecode.d2j.dex.Dex2Asm.convertDex(Dex2Asm.java:422)
+	at com.googlecode.d2j.dex.Dex2jar.doTranslate(Dex2jar.java:172)
+	at com.googlecode.d2j.dex.Dex2jar.to(Dex2jar.java:272)
+	at com.googlecode.dex2jar.tools.Dex2jarCmd.doCommandLine(Dex2jarCmd.java:108)
+	at com.googlecode.dex2jar.tools.BaseCmd.doMain(BaseCmd.java:288)
+	at com.googlecode.dex2jar.tools.Dex2jarCmd.main(Dex2jarCmd.java:32)
+
+
+.method private saveToDb(JLjava/lang/String;Ljava/lang/String;)Z
+    .catch Ljava/lang/IllegalArgumentException; { :L0 .. :L1 } :L12
+    .catchall { :L0 .. :L1 } :L13
+    .catch Ljava/lang/IllegalArgumentException; { :L2 .. :L3 } :L15
+    .catchall { :L2 .. :L3 } :L14
+    .catchall { :L4 .. :L5 } :L9
+    .catch Ljava/lang/IllegalArgumentException; { :L6 .. :L7 } :L15
+    .catchall { :L6 .. :L7 } :L14
+    .catchall { :L8 .. :L10 } :L9
+    .catchall { :L11 .. :L14 } :L9
+    .registers 16
+    const/4 v0, 0
+    return v0
+    :L0
+    :L1
+    :L2
+    :L3
+    :L4
+    :L5
+    :L6
+    :L7
+    :L8
+    :L9
+    nop
+    nop
+    :L10
+    nop
+    nop
+    nop
+    nop
+    :L11
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L12
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L13
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L14
+    nop
+    nop
+    nop
+    :L15
+    nop
+    nop
+.end method

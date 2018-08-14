@@ -1,0 +1,7 @@
+*.apk
+jd-gui.cfg
+jar/*
+package/*
+xml/*
+.DS_Store
+*-error.zip

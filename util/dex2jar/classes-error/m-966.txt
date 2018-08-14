@@ -1,0 +1,276 @@
+Lcom/alibaba/mobileim/utility/IMThumbnailUtils;.compressFileToBitmapThumbAndRotate(Ljava/lang/String;IILjava/lang/String;ZZI)Landroid/graphics/Bitmap;
+java.lang.NullPointerException
+	at com.googlecode.dex2jar.ir.ts.ExceptionHandlerCurrectTransformer.transform(ExceptionHandlerCurrectTransformer.java:89)
+	at com.googlecode.d2j.dex.Dex2jar$2.optimize(Dex2jar.java:133)
+	at com.googlecode.d2j.dex.Dex2Asm.convertCode(Dex2Asm.java:414)
+	at com.googlecode.d2j.dex.ExDex2Asm.convertCode(ExDex2Asm.java:42)
+	at com.googlecode.d2j.dex.Dex2jar$2.convertCode(Dex2jar.java:128)
+	at com.googlecode.d2j.dex.Dex2Asm.convertMethod(Dex2Asm.java:509)
+	at com.googlecode.d2j.dex.Dex2Asm.convertClass(Dex2Asm.java:406)
+	at com.googlecode.d2j.dex.Dex2Asm.convertDex(Dex2Asm.java:422)
+	at com.googlecode.d2j.dex.Dex2jar.doTranslate(Dex2jar.java:172)
+	at com.googlecode.d2j.dex.Dex2jar.to(Dex2jar.java:272)
+	at com.googlecode.dex2jar.tools.Dex2jarCmd.doCommandLine(Dex2jarCmd.java:108)
+	at com.googlecode.dex2jar.tools.BaseCmd.doMain(BaseCmd.java:288)
+	at com.googlecode.dex2jar.tools.Dex2jarCmd.main(Dex2jarCmd.java:32)
+
+
+.method private static compressFileToBitmapThumbAndRotate(Ljava/lang/String;IILjava/lang/String;ZZI)Landroid/graphics/Bitmap;
+    .catch Ljava/lang/Exception; { :L0 .. :L1 } :L6
+    .catch Ljava/lang/Exception; { :L2 .. :L3 } :L7
+    .catch Ljava/lang/Throwable; { :L2 .. :L3 } :L11
+    .catch Ljava/io/IOException; { :L4 .. :L5 } :L15
+    .catch Ljava/io/IOException; { :L8 .. :L9 } :L10
+    .catch Ljava/io/IOException; { :L12 .. :L13 } :L14
+    .catch Ljava/lang/OutOfMemoryError; { :L16 .. :L17 } :L20
+    .catch Ljava/lang/Exception; { :L16 .. :L17 } :L21
+    .catch Ljava/lang/Throwable; { :L16 .. :L17 } :L22
+    .catch Ljava/lang/OutOfMemoryError; { :L18 .. :L19 } :L20
+    .catch Ljava/lang/Exception; { :L18 .. :L19 } :L21
+    .catch Ljava/lang/Throwable; { :L18 .. :L19 } :L22
+    .catch Ljava/io/IOException; { :L23 .. :L24 } :L25
+    .registers 16
+    const/4 v0, 0
+    return-object v0
+    :L0
+    :L1
+    :L2
+    :L3
+    :L4
+    :L5
+    :L6
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L7
+    nop
+    nop
+    nop
+    nop
+    :L8
+    nop
+    nop
+    nop
+    :L9
+    nop
+    nop
+    :L10
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L11
+    nop
+    nop
+    nop
+    nop
+    :L12
+    nop
+    nop
+    nop
+    :L13
+    nop
+    nop
+    :L14
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L15
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L16
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L17
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L18
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L19
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L20
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L21
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L22
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L23
+    nop
+    nop
+    nop
+    :L24
+    nop
+    nop
+    nop
+    :L25
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+.end method

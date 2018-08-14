@@ -1,0 +1,166 @@
+Lcom/alibaba/mobileim/kit/imageviewer/HighDefinitionImageLoader$ImageRequest;.readFileByProgress(Ljava/lang/String;Lcom/alibaba/mobileim/channel/event/IWxCallback;)[B
+java.lang.NullPointerException
+	at com.googlecode.dex2jar.ir.ts.ExceptionHandlerCurrectTransformer.transform(ExceptionHandlerCurrectTransformer.java:89)
+	at com.googlecode.d2j.dex.Dex2jar$2.optimize(Dex2jar.java:133)
+	at com.googlecode.d2j.dex.Dex2Asm.convertCode(Dex2Asm.java:414)
+	at com.googlecode.d2j.dex.ExDex2Asm.convertCode(ExDex2Asm.java:42)
+	at com.googlecode.d2j.dex.Dex2jar$2.convertCode(Dex2jar.java:128)
+	at com.googlecode.d2j.dex.Dex2Asm.convertMethod(Dex2Asm.java:509)
+	at com.googlecode.d2j.dex.Dex2Asm.convertClass(Dex2Asm.java:406)
+	at com.googlecode.d2j.dex.Dex2Asm.convertDex(Dex2Asm.java:422)
+	at com.googlecode.d2j.dex.Dex2jar.doTranslate(Dex2jar.java:172)
+	at com.googlecode.d2j.dex.Dex2jar.to(Dex2jar.java:272)
+	at com.googlecode.dex2jar.tools.Dex2jarCmd.doCommandLine(Dex2jarCmd.java:108)
+	at com.googlecode.dex2jar.tools.BaseCmd.doMain(BaseCmd.java:288)
+	at com.googlecode.dex2jar.tools.Dex2jarCmd.main(Dex2jarCmd.java:32)
+
+
+.method private readFileByProgress(Ljava/lang/String;Lcom/alibaba/mobileim/channel/event/IWxCallback;)[B
+    .catch Ljava/io/FileNotFoundException; { :L0 .. :L1 } :L7
+    .catch Ljava/io/IOException; { :L0 .. :L1 } :L13
+    .catch Ljava/lang/OutOfMemoryError; { :L0 .. :L1 } :L19
+    .catchall { :L0 .. :L1 } :L25
+    .catch Ljava/io/FileNotFoundException; { :L2 .. :L3 } :L32
+    .catch Ljava/io/IOException; { :L2 .. :L3 } :L31
+    .catch Ljava/lang/OutOfMemoryError; { :L2 .. :L3 } :L30
+    .catchall { :L2 .. :L3 } :L29
+    .catch Ljava/io/IOException; { :L4 .. :L5 } :L6
+    .catchall { :L8 .. :L9 } :L29
+    .catch Ljava/io/IOException; { :L10 .. :L11 } :L12
+    .catchall { :L14 .. :L15 } :L29
+    .catch Ljava/io/IOException; { :L16 .. :L17 } :L18
+    .catchall { :L20 .. :L21 } :L29
+    .catch Ljava/io/IOException; { :L22 .. :L23 } :L24
+    .catch Ljava/io/IOException; { :L26 .. :L27 } :L28
+    .registers 11
+    const/4 v0, 0
+    return-object v0
+    :L0
+    :L1
+    :L2
+    :L3
+    :L4
+    :L5
+    :L6
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L7
+    nop
+    nop
+    :L8
+    nop
+    nop
+    nop
+    :L9
+    nop
+    nop
+    :L10
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L11
+    nop
+    :L12
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L13
+    nop
+    nop
+    :L14
+    nop
+    nop
+    nop
+    :L15
+    nop
+    nop
+    :L16
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L17
+    nop
+    :L18
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L19
+    nop
+    nop
+    :L20
+    nop
+    nop
+    nop
+    :L21
+    nop
+    nop
+    :L22
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L23
+    nop
+    :L24
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L25
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L26
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L27
+    nop
+    :L28
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L29
+    nop
+    nop
+    :L30
+    nop
+    nop
+    :L31
+    nop
+    nop
+    :L32
+    nop
+    nop
+.end method

@@ -1,0 +1,323 @@
+Lcn/jiguang/d/b/a/a/i;.a(Ljava/net/InetAddress;ILjava/lang/String;Ljava/net/DatagramSocket;)Lcn/jiguang/d/b/a/a;
+java.lang.NullPointerException
+	at com.googlecode.dex2jar.ir.ts.ExceptionHandlerCurrectTransformer.transform(ExceptionHandlerCurrectTransformer.java:89)
+	at com.googlecode.d2j.dex.Dex2jar$2.optimize(Dex2jar.java:133)
+	at com.googlecode.d2j.dex.Dex2Asm.convertCode(Dex2Asm.java:414)
+	at com.googlecode.d2j.dex.ExDex2Asm.convertCode(ExDex2Asm.java:42)
+	at com.googlecode.d2j.dex.Dex2jar$2.convertCode(Dex2jar.java:128)
+	at com.googlecode.d2j.dex.Dex2Asm.convertMethod(Dex2Asm.java:509)
+	at com.googlecode.d2j.dex.Dex2Asm.convertClass(Dex2Asm.java:406)
+	at com.googlecode.d2j.dex.Dex2Asm.convertDex(Dex2Asm.java:422)
+	at com.googlecode.d2j.dex.Dex2jar.doTranslate(Dex2jar.java:172)
+	at com.googlecode.d2j.dex.Dex2jar.to(Dex2jar.java:272)
+	at com.googlecode.dex2jar.tools.Dex2jarCmd.doCommandLine(Dex2jarCmd.java:108)
+	at com.googlecode.dex2jar.tools.BaseCmd.doMain(BaseCmd.java:288)
+	at com.googlecode.dex2jar.tools.Dex2jarCmd.main(Dex2jarCmd.java:32)
+
+
+.method private a(Ljava/net/InetAddress;ILjava/lang/String;Ljava/net/DatagramSocket;)Lcn/jiguang/d/b/a/a;
+    .catch Ljava/lang/Exception; { :L0 .. :L1 } :L12
+    .catch Lcn/jiguang/d/b/a/e; { :L0 .. :L1 } :L7
+    .catchall { :L0 .. :L1 } :L14
+    .catch Lcn/jiguang/d/b/a/e; { :L2 .. :L3 } :L7
+    .catchall { :L2 .. :L3 } :L14
+    .catch Ljava/lang/Exception; { :L4 .. :L5 } :L15
+    .catch Lcn/jiguang/d/b/a/e; { :L4 .. :L5 } :L7
+    .catchall { :L4 .. :L5 } :L14
+    .catch Lcn/jiguang/d/b/a/e; { :L6 .. :L7 } :L7
+    .catchall { :L6 .. :L7 } :L14
+    .catchall { :L8 .. :L9 } :L24
+    .catchall { :L10 .. :L11 } :L11
+    .catch Lcn/jiguang/d/b/a/e; { :L13 .. :L16 } :L7
+    .catchall { :L13 .. :L16 } :L14
+    .catch Lcn/jiguang/d/b/a/e; { :L16 .. :L17 } :L25
+    .catchall { :L16 .. :L17 } :L22
+    .catch Lcn/jiguang/d/b/a/e; { :L18 .. :L19 } :L19
+    .catchall { :L18 .. :L19 } :L23
+    .catch Lcn/jiguang/d/b/a/e; { :L20 .. :L21 } :L7
+    .catchall { :L20 .. :L21 } :L14
+    .registers 21
+    const/4 v0, 0
+    return-object v0
+    :L0
+    :L1
+    :L2
+    :L3
+    :L4
+    :L5
+    :L6
+    :L7
+    nop
+    nop
+    nop
+    nop
+    :L8
+    nop
+    nop
+    nop
+    :L9
+    nop
+    :L10
+    nop
+    :L11
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L12
+    nop
+    :L13
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L14
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L15
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L16
+    nop
+    nop
+    nop
+    :L17
+    nop
+    :L18
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L19
+    nop
+    nop
+    nop
+    :L20
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L21
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L22
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L23
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L24
+    nop
+    nop
+    nop
+    nop
+    :L25
+    nop
+    nop
+    nop
+    nop
+    nop
+.end method

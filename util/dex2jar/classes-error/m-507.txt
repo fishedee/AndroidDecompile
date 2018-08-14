@@ -1,0 +1,288 @@
+Lcom/alibaba/wxlib/store/PersistManager;.writeExternalStorage(Landroid/content/Context;Ljava/lang/String;ILjava/lang/Object;)Z
+java.lang.NullPointerException
+	at com.googlecode.dex2jar.ir.ts.ExceptionHandlerCurrectTransformer.transform(ExceptionHandlerCurrectTransformer.java:89)
+	at com.googlecode.d2j.dex.Dex2jar$2.optimize(Dex2jar.java:133)
+	at com.googlecode.d2j.dex.Dex2Asm.convertCode(Dex2Asm.java:414)
+	at com.googlecode.d2j.dex.ExDex2Asm.convertCode(ExDex2Asm.java:42)
+	at com.googlecode.d2j.dex.Dex2jar$2.convertCode(Dex2jar.java:128)
+	at com.googlecode.d2j.dex.Dex2Asm.convertMethod(Dex2Asm.java:509)
+	at com.googlecode.d2j.dex.Dex2Asm.convertClass(Dex2Asm.java:406)
+	at com.googlecode.d2j.dex.Dex2Asm.convertDex(Dex2Asm.java:422)
+	at com.googlecode.d2j.dex.Dex2jar.doTranslate(Dex2jar.java:172)
+	at com.googlecode.d2j.dex.Dex2jar.to(Dex2jar.java:272)
+	at com.googlecode.dex2jar.tools.Dex2jarCmd.doCommandLine(Dex2jarCmd.java:108)
+	at com.googlecode.dex2jar.tools.BaseCmd.doMain(BaseCmd.java:288)
+	at com.googlecode.dex2jar.tools.Dex2jarCmd.main(Dex2jarCmd.java:32)
+
+
+.method private writeExternalStorage(Landroid/content/Context;Ljava/lang/String;ILjava/lang/Object;)Z
+    .catch Ljava/lang/Throwable; { :L0 .. :L1 } :L19
+    .catch Ljava/lang/Exception; { :L1 .. :L2 } :L50
+    .catchall { :L1 .. :L2 } :L22
+    .catch Ljava/lang/Exception; { :L2 .. :L3 } :L4
+    .catchall { :L2 .. :L3 } :L49
+    .catchall { :L5 .. :L6 } :L49
+    .catch Ljava/io/IOException; { :L7 .. :L8 } :L20
+    .catch Ljava/lang/Throwable; { :L7 .. :L8 } :L19
+    .catch Ljava/lang/Throwable; { :L9 .. :L10 } :L19
+    .catch Ljava/lang/Exception; { :L10 .. :L11 } :L33
+    .catchall { :L10 .. :L11 } :L41
+    .catch Ljava/lang/Exception; { :L11 .. :L12 } :L48
+    .catchall { :L11 .. :L12 } :L46
+    .catch Ljava/io/IOException; { :L13 .. :L14 } :L31
+    .catch Ljava/lang/Throwable; { :L13 .. :L14 } :L19
+    .catch Ljava/io/IOException; { :L15 .. :L16 } :L17
+    .catch Ljava/lang/Throwable; { :L15 .. :L16 } :L19
+    .catch Ljava/lang/Throwable; { :L18 .. :L21 } :L19
+    .catch Ljava/io/IOException; { :L23 .. :L24 } :L25
+    .catch Ljava/lang/Throwable; { :L23 .. :L24 } :L19
+    .catch Ljava/lang/Throwable; { :L24 .. :L26 } :L19
+    .catch Ljava/io/IOException; { :L27 .. :L28 } :L29
+    .catch Ljava/lang/Throwable; { :L27 .. :L28 } :L19
+    .catch Ljava/lang/Throwable; { :L30 .. :L32 } :L19
+    .catchall { :L34 .. :L35 } :L47
+    .catch Ljava/io/IOException; { :L36 .. :L37 } :L38
+    .catch Ljava/lang/Throwable; { :L36 .. :L37 } :L19
+    .catch Ljava/lang/Throwable; { :L39 .. :L40 } :L19
+    .catch Ljava/io/IOException; { :L42 .. :L43 } :L44
+    .catch Ljava/lang/Throwable; { :L42 .. :L43 } :L19
+    .catch Ljava/lang/Throwable; { :L43 .. :L45 } :L19
+    .registers 15
+    const/4 v0, 0
+    return v0
+    :L0
+    :L1
+    :L2
+    :L3
+    :L4
+    nop
+    :L5
+    nop
+    nop
+    nop
+    :L6
+    nop
+    nop
+    :L7
+    nop
+    nop
+    nop
+    :L8
+    nop
+    nop
+    :L9
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L10
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L11
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L12
+    nop
+    nop
+    :L13
+    nop
+    nop
+    nop
+    :L14
+    nop
+    nop
+    nop
+    nop
+    :L15
+    nop
+    nop
+    nop
+    :L16
+    nop
+    :L17
+    nop
+    :L18
+    nop
+    nop
+    nop
+    nop
+    :L19
+    nop
+    nop
+    nop
+    :L20
+    nop
+    nop
+    nop
+    nop
+    :L21
+    nop
+    :L22
+    nop
+    nop
+    nop
+    nop
+    :L23
+    nop
+    nop
+    nop
+    :L24
+    nop
+    :L25
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L26
+    nop
+    nop
+    nop
+    :L27
+    nop
+    nop
+    nop
+    :L28
+    nop
+    nop
+    :L29
+    nop
+    :L30
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L31
+    nop
+    nop
+    nop
+    nop
+    :L32
+    nop
+    nop
+    :L33
+    nop
+    :L34
+    nop
+    nop
+    nop
+    :L35
+    nop
+    nop
+    :L36
+    nop
+    nop
+    nop
+    :L37
+    nop
+    nop
+    :L38
+    nop
+    :L39
+    nop
+    nop
+    nop
+    :L40
+    nop
+    nop
+    :L41
+    nop
+    nop
+    nop
+    nop
+    :L42
+    nop
+    nop
+    nop
+    :L43
+    nop
+    :L44
+    nop
+    nop
+    nop
+    nop
+    :L45
+    nop
+    nop
+    :L46
+    nop
+    nop
+    :L47
+    nop
+    nop
+    nop
+    :L48
+    nop
+    nop
+    nop
+    :L49
+    nop
+    nop
+    :L50
+    nop
+    nop
+    nop
+    nop
+.end method

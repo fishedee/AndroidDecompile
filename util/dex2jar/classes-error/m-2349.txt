@@ -1,0 +1,84 @@
+Lcom/facebook/stetho/inspector/network/ResponseHandlingInputStream;.closeOutputStreamQuietly()V
+java.lang.NullPointerException
+	at com.googlecode.dex2jar.ir.ts.ExceptionHandlerCurrectTransformer.transform(ExceptionHandlerCurrectTransformer.java:89)
+	at com.googlecode.d2j.dex.Dex2jar$2.optimize(Dex2jar.java:133)
+	at com.googlecode.d2j.dex.Dex2Asm.convertCode(Dex2Asm.java:414)
+	at com.googlecode.d2j.dex.ExDex2Asm.convertCode(ExDex2Asm.java:42)
+	at com.googlecode.d2j.dex.Dex2jar$2.convertCode(Dex2jar.java:128)
+	at com.googlecode.d2j.dex.Dex2Asm.convertMethod(Dex2Asm.java:509)
+	at com.googlecode.d2j.dex.Dex2Asm.convertClass(Dex2Asm.java:406)
+	at com.googlecode.d2j.dex.Dex2Asm.convertDex(Dex2Asm.java:422)
+	at com.googlecode.d2j.dex.Dex2jar.doTranslate(Dex2jar.java:172)
+	at com.googlecode.d2j.dex.Dex2jar.to(Dex2jar.java:272)
+	at com.googlecode.dex2jar.tools.Dex2jarCmd.doCommandLine(Dex2jarCmd.java:108)
+	at com.googlecode.dex2jar.tools.BaseCmd.doMain(BaseCmd.java:288)
+	at com.googlecode.dex2jar.tools.Dex2jarCmd.main(Dex2jarCmd.java:32)
+
+
+.method private declared-synchronized closeOutputStreamQuietly()V
+    .catchall { :L0 .. :L1 } :L11
+    .catch Ljava/io/IOException; { :L2 .. :L3 } :L6
+    .catchall { :L2 .. :L3 } :L12
+    .catchall { :L4 .. :L5 } :L11
+    .catchall { :L7 .. :L8 } :L12
+    .catchall { :L9 .. :L10 } :L11
+    .catchall { :L13 .. :L14 } :L11
+    .registers 7
+    return-void
+    :L0
+    :L1
+    :L2
+    :L3
+    :L4
+    :L5
+    :L6
+    nop
+    :L7
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L8
+    nop
+    :L9
+    nop
+    nop
+    :L10
+    nop
+    :L11
+    nop
+    nop
+    nop
+    :L12
+    nop
+    nop
+    :L13
+    nop
+    nop
+    nop
+    :L14
+.end method

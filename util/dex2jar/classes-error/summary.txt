@@ -1,0 +1,30 @@
+There are 2654 methods fail to translate.
+2018-08-13 13:21:02 UTC
+version: [dex-reader-2.0, dex-reader-api-2.0, dex-ir-2.0, d2j-smali-2.0, d2j-base-cmd-2.0, dex-tools-2.0, dex-translator-2.0]
+cmdline: [--force, /Users/fish/Desktop/com.wanbangauto.chargepile_66-dex/classes.dex, -o, /Users/fish/Desktop/com.wanbangauto.chargepile_66-dex/classes-d2j.jar]
+env:
+java.runtime.name: Java(TM) SE Runtime Environment
+java.vm.version: 25.181-b13
+java.vm.vendor: Oracle Corporation
+java.vendor.url: http://java.oracle.com/
+java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+java.vm.specification.name: Java Virtual Machine Specification
+java.runtime.version: 1.8.0_181-b13
+java.awt.graphicsenv: sun.awt.CGraphicsEnvironment
+java.endorsed.dirs: /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/endorsed
+java.io.tmpdir: /var/folders/8m/ggpxjglx5r1_d9z4fn1c6m_40000gn/T/
+java.vm.specification.vendor: Oracle Corporation
+java.library.path: /Users/fish/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+java.specification.name: Java Platform API Specification
+java.class.version: 52.0
+java.awt.printerjob: sun.lwawt.macosx.CPrinterJob
+java.specification.version: 1.8
+java.class.path: .:/Users/fish/Desktop/dex2jar-2.0/lib/antlr-runtime-3.5.jar:/Users/fish/Desktop/dex2jar-2.0/lib/asm-debug-all-4.1.jar:/Users/fish/Desktop/dex2jar-2.0/lib/d2j-base-cmd-2.0.jar:/Users/fish/Desktop/dex2jar-2.0/lib/d2j-jasmin-2.0.jar:/Users/fish/Desktop/dex2jar-2.0/lib/d2j-smali-2.0.jar:/Users/fish/Desktop/dex2jar-2.0/lib/dex-ir-2.0.jar:/Users/fish/Desktop/dex2jar-2.0/lib/dex-reader-2.0.jar:/Users/fish/Desktop/dex2jar-2.0/lib/dex-reader-api-2.0.jar:/Users/fish/Desktop/dex2jar-2.0/lib/dex-tools-2.0.jar:/Users/fish/Desktop/dex2jar-2.0/lib/dex-translator-2.0.jar:/Users/fish/Desktop/dex2jar-2.0/lib/dex-writer-2.0.jar:/Users/fish/Desktop/dex2jar-2.0/lib/dx-1.7.jar
+java.vm.specification.version: 1.8
+java.home: /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre
+java.specification.vendor: Oracle Corporation
+java.vm.info: mixed mode
+java.version: 1.8.0_181
+java.ext.dirs: /Users/fish/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+java.vendor: Oracle Corporation
+java.vendor.url.bug: http://bugreport.sun.com/bugreport/

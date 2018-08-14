@@ -1,0 +1,69 @@
+Lcn/jpush/android/service/d;.c(Landroid/content/Context;)V
+java.lang.NullPointerException
+	at com.googlecode.dex2jar.ir.ts.ExceptionHandlerCurrectTransformer.transform(ExceptionHandlerCurrectTransformer.java:89)
+	at com.googlecode.d2j.dex.Dex2jar$2.optimize(Dex2jar.java:133)
+	at com.googlecode.d2j.dex.Dex2Asm.convertCode(Dex2Asm.java:414)
+	at com.googlecode.d2j.dex.ExDex2Asm.convertCode(ExDex2Asm.java:42)
+	at com.googlecode.d2j.dex.Dex2jar$2.convertCode(Dex2jar.java:128)
+	at com.googlecode.d2j.dex.Dex2Asm.convertMethod(Dex2Asm.java:509)
+	at com.googlecode.d2j.dex.Dex2Asm.convertClass(Dex2Asm.java:406)
+	at com.googlecode.d2j.dex.Dex2Asm.convertDex(Dex2Asm.java:422)
+	at com.googlecode.d2j.dex.Dex2jar.doTranslate(Dex2jar.java:172)
+	at com.googlecode.d2j.dex.Dex2jar.to(Dex2jar.java:272)
+	at com.googlecode.dex2jar.tools.Dex2jarCmd.doCommandLine(Dex2jarCmd.java:108)
+	at com.googlecode.dex2jar.tools.BaseCmd.doMain(BaseCmd.java:288)
+	at com.googlecode.dex2jar.tools.Dex2jarCmd.main(Dex2jarCmd.java:32)
+
+
+.method private declared-synchronized c(Landroid/content/Context;)V
+    .catchall { :L0 .. :L1 } :L8
+    .catch Ljava/lang/IllegalArgumentException; { :L2 .. :L3 } :L5
+    .catch Ljava/lang/Exception; { :L2 .. :L3 } :L9
+    .catchall { :L2 .. :L3 } :L8
+    .catchall { :L3 .. :L4 } :L8
+    .catchall { :L6 .. :L7 } :L8
+    .catchall { :L10 .. :L11 } :L8
+    .registers 5
+    return-void
+    :L0
+    :L1
+    :L2
+    :L3
+    :L4
+    :L5
+    nop
+    :L6
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L7
+    nop
+    :L8
+    nop
+    nop
+    nop
+    :L9
+    nop
+    :L10
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L11
+    nop
+.end method

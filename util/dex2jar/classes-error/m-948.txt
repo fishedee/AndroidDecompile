@@ -1,0 +1,290 @@
+Lcn/jpush/android/api/DefaultPushNotificationBuilder;.setNotificationChannel(Ljava/lang/String;Ljava/lang/CharSequence;II)Z
+java.lang.NullPointerException
+	at com.googlecode.dex2jar.ir.ts.ExceptionHandlerCurrectTransformer.transform(ExceptionHandlerCurrectTransformer.java:89)
+	at com.googlecode.d2j.dex.Dex2jar$2.optimize(Dex2jar.java:133)
+	at com.googlecode.d2j.dex.Dex2Asm.convertCode(Dex2Asm.java:414)
+	at com.googlecode.d2j.dex.ExDex2Asm.convertCode(ExDex2Asm.java:42)
+	at com.googlecode.d2j.dex.Dex2jar$2.convertCode(Dex2jar.java:128)
+	at com.googlecode.d2j.dex.Dex2Asm.convertMethod(Dex2Asm.java:509)
+	at com.googlecode.d2j.dex.Dex2Asm.convertClass(Dex2Asm.java:406)
+	at com.googlecode.d2j.dex.Dex2Asm.convertDex(Dex2Asm.java:422)
+	at com.googlecode.d2j.dex.Dex2jar.doTranslate(Dex2jar.java:172)
+	at com.googlecode.d2j.dex.Dex2jar.to(Dex2jar.java:272)
+	at com.googlecode.dex2jar.tools.Dex2jarCmd.doCommandLine(Dex2jarCmd.java:108)
+	at com.googlecode.dex2jar.tools.BaseCmd.doMain(BaseCmd.java:288)
+	at com.googlecode.dex2jar.tools.Dex2jarCmd.main(Dex2jarCmd.java:32)
+
+
+.method private setNotificationChannel(Ljava/lang/String;Ljava/lang/CharSequence;II)Z
+    .catch Ljava/lang/Throwable; { :L0 .. :L1 } :L29
+    .catch Ljava/lang/reflect/InvocationTargetException; { :L2 .. :L3 } :L23
+    .catch Ljava/lang/NoSuchMethodException; { :L2 .. :L3 } :L26
+    .catch Ljava/lang/Throwable; { :L2 .. :L3 } :L29
+    .catch Ljava/lang/InstantiationException; { :L4 .. :L5 } :L14
+    .catch Ljava/lang/IllegalAccessException; { :L4 .. :L5 } :L20
+    .catch Ljava/lang/reflect/InvocationTargetException; { :L4 .. :L5 } :L23
+    .catch Ljava/lang/NoSuchMethodException; { :L4 .. :L5 } :L26
+    .catch Ljava/lang/Throwable; { :L4 .. :L5 } :L29
+    .catch Ljava/lang/Exception; { :L6 .. :L7 } :L12
+    .catch Ljava/lang/InstantiationException; { :L6 .. :L7 } :L14
+    .catch Ljava/lang/IllegalAccessException; { :L6 .. :L7 } :L20
+    .catch Ljava/lang/reflect/InvocationTargetException; { :L6 .. :L7 } :L23
+    .catch Ljava/lang/NoSuchMethodException; { :L6 .. :L7 } :L26
+    .catch Ljava/lang/Throwable; { :L6 .. :L7 } :L29
+    .catch Ljava/lang/Exception; { :L8 .. :L9 } :L17
+    .catch Ljava/lang/InstantiationException; { :L8 .. :L9 } :L14
+    .catch Ljava/lang/IllegalAccessException; { :L8 .. :L9 } :L20
+    .catch Ljava/lang/reflect/InvocationTargetException; { :L8 .. :L9 } :L23
+    .catch Ljava/lang/NoSuchMethodException; { :L8 .. :L9 } :L26
+    .catch Ljava/lang/Throwable; { :L8 .. :L9 } :L29
+    .catch Ljava/lang/Exception; { :L9 .. :L10 } :L30
+    .catch Ljava/lang/InstantiationException; { :L9 .. :L10 } :L14
+    .catch Ljava/lang/IllegalAccessException; { :L9 .. :L10 } :L20
+    .catch Ljava/lang/reflect/InvocationTargetException; { :L9 .. :L10 } :L23
+    .catch Ljava/lang/NoSuchMethodException; { :L9 .. :L10 } :L26
+    .catch Ljava/lang/Throwable; { :L9 .. :L10 } :L29
+    .catch Ljava/lang/InstantiationException; { :L11 .. :L13 } :L14
+    .catch Ljava/lang/IllegalAccessException; { :L11 .. :L13 } :L20
+    .catch Ljava/lang/reflect/InvocationTargetException; { :L11 .. :L13 } :L23
+    .catch Ljava/lang/NoSuchMethodException; { :L11 .. :L13 } :L26
+    .catch Ljava/lang/Throwable; { :L11 .. :L13 } :L29
+    .catch Ljava/lang/reflect/InvocationTargetException; { :L15 .. :L16 } :L23
+    .catch Ljava/lang/NoSuchMethodException; { :L15 .. :L16 } :L26
+    .catch Ljava/lang/Throwable; { :L15 .. :L16 } :L29
+    .catch Ljava/lang/InstantiationException; { :L18 .. :L19 } :L14
+    .catch Ljava/lang/IllegalAccessException; { :L18 .. :L19 } :L20
+    .catch Ljava/lang/reflect/InvocationTargetException; { :L18 .. :L19 } :L23
+    .catch Ljava/lang/NoSuchMethodException; { :L18 .. :L19 } :L26
+    .catch Ljava/lang/Throwable; { :L18 .. :L19 } :L29
+    .catch Ljava/lang/reflect/InvocationTargetException; { :L21 .. :L22 } :L23
+    .catch Ljava/lang/NoSuchMethodException; { :L21 .. :L22 } :L26
+    .catch Ljava/lang/Throwable; { :L21 .. :L22 } :L29
+    .catch Ljava/lang/NoSuchMethodException; { :L24 .. :L25 } :L26
+    .catch Ljava/lang/Throwable; { :L24 .. :L25 } :L29
+    .catch Ljava/lang/Throwable; { :L27 .. :L28 } :L29
+    .catch Ljava/lang/InstantiationException; { :L31 .. :L32 } :L14
+    .catch Ljava/lang/IllegalAccessException; { :L31 .. :L32 } :L20
+    .catch Ljava/lang/reflect/InvocationTargetException; { :L31 .. :L32 } :L23
+    .catch Ljava/lang/NoSuchMethodException; { :L31 .. :L32 } :L26
+    .catch Ljava/lang/Throwable; { :L31 .. :L32 } :L29
+    .registers 16
+    const/4 v0, 0
+    return v0
+    :L0
+    :L1
+    :L2
+    :L3
+    :L4
+    :L5
+    :L6
+    :L7
+    :L8
+    :L9
+    :L10
+    :L11
+    :L12
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L13
+    nop
+    :L14
+    nop
+    :L15
+    nop
+    nop
+    nop
+    :L16
+    nop
+    nop
+    nop
+    :L17
+    nop
+    :L18
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L19
+    nop
+    :L20
+    nop
+    :L21
+    nop
+    nop
+    nop
+    :L22
+    nop
+    :L23
+    nop
+    :L24
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L25
+    nop
+    :L26
+    nop
+    :L27
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L28
+    nop
+    :L29
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L30
+    nop
+    :L31
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L32
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+.end method

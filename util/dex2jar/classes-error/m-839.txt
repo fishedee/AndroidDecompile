@@ -1,0 +1,266 @@
+Lcn/jiguang/d/d/o;.a(Landroid/content/Context;Ljava/lang/String;Lorg/json/JSONObject;)Z
+java.lang.NullPointerException
+	at com.googlecode.dex2jar.ir.ts.ExceptionHandlerCurrectTransformer.transform(ExceptionHandlerCurrectTransformer.java:89)
+	at com.googlecode.d2j.dex.Dex2jar$2.optimize(Dex2jar.java:133)
+	at com.googlecode.d2j.dex.Dex2Asm.convertCode(Dex2Asm.java:414)
+	at com.googlecode.d2j.dex.ExDex2Asm.convertCode(ExDex2Asm.java:42)
+	at com.googlecode.d2j.dex.Dex2jar$2.convertCode(Dex2jar.java:128)
+	at com.googlecode.d2j.dex.Dex2Asm.convertMethod(Dex2Asm.java:509)
+	at com.googlecode.d2j.dex.Dex2Asm.convertClass(Dex2Asm.java:406)
+	at com.googlecode.d2j.dex.Dex2Asm.convertDex(Dex2Asm.java:422)
+	at com.googlecode.d2j.dex.Dex2jar.doTranslate(Dex2jar.java:172)
+	at com.googlecode.d2j.dex.Dex2jar.to(Dex2jar.java:272)
+	at com.googlecode.dex2jar.tools.Dex2jarCmd.doCommandLine(Dex2jarCmd.java:108)
+	at com.googlecode.dex2jar.tools.BaseCmd.doMain(BaseCmd.java:288)
+	at com.googlecode.dex2jar.tools.Dex2jarCmd.main(Dex2jarCmd.java:32)
+
+
+.method public static a(Landroid/content/Context;Ljava/lang/String;Lorg/json/JSONObject;)Z
+    .catchall { :L0 .. :L1 } :L9
+    .catch Ljava/lang/Exception; { :L2 .. :L3 } :L8
+    .catchall { :L2 .. :L3 } :L9
+    .catch Ljava/io/FileNotFoundException; { :L4 .. :L5 } :L11
+    .catch Ljava/io/UnsupportedEncodingException; { :L4 .. :L5 } :L15
+    .catch Ljava/io/IOException; { :L4 .. :L5 } :L19
+    .catch Ljava/lang/NullPointerException; { :L4 .. :L5 } :L23
+    .catchall { :L4 .. :L5 } :L26
+    .catch Ljava/io/FileNotFoundException; { :L6 .. :L7 } :L28
+    .catch Ljava/io/UnsupportedEncodingException; { :L6 .. :L7 } :L15
+    .catch Ljava/io/IOException; { :L6 .. :L7 } :L19
+    .catch Ljava/lang/NullPointerException; { :L6 .. :L7 } :L23
+    .catchall { :L6 .. :L7 } :L26
+    .catchall { :L7 .. :L10 } :L9
+    .catchall { :L12 .. :L13 } :L27
+    .catchall { :L13 .. :L14 } :L9
+    .catchall { :L16 .. :L17 } :L26
+    .catchall { :L17 .. :L18 } :L9
+    .catchall { :L20 .. :L21 } :L26
+    .catchall { :L21 .. :L22 } :L9
+    .catchall { :L24 .. :L25 } :L26
+    .catchall { :L25 .. :L27 } :L9
+    .registers 11
+    const/4 v0, 0
+    return v0
+    :L0
+    :L1
+    :L2
+    :L3
+    :L4
+    :L5
+    :L6
+    :L7
+    :L8
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L9
+    nop
+    nop
+    :L10
+    nop
+    :L11
+    nop
+    nop
+    :L12
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L13
+    nop
+    nop
+    nop
+    nop
+    :L14
+    nop
+    nop
+    nop
+    :L15
+    nop
+    :L16
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L17
+    nop
+    nop
+    nop
+    nop
+    :L18
+    nop
+    nop
+    nop
+    :L19
+    nop
+    :L20
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L21
+    nop
+    nop
+    nop
+    nop
+    :L22
+    nop
+    nop
+    nop
+    :L23
+    nop
+    :L24
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L25
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L26
+    nop
+    nop
+    nop
+    nop
+    nop
+    :L27
+    nop
+    nop
+    nop
+    :L28
+    nop
+    nop
+    nop
+    nop
+.end method
